@@ -2340,8 +2340,9 @@ template {
     margin-bottom: 38px;
   }
   .footer__logo {
-    width: 104px;
-    height: 120px;
+    width: 98px;
+    height: 112px;
+    margin-bottom: 4px;
   }
   .footer__list {
     width: 100%;
