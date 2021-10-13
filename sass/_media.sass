@@ -26,7 +26,7 @@
   .container, .newsletter-wrapper
     max-width: 700px
   .logo
-    width: 136px
+    width: 140px
     &__image
       width: 100%
   .navbar
@@ -90,16 +90,16 @@
       &-network
         grid-column: 4 / span 9
         align-self: center
-        grid-row: 2
+        grid-row: 1
     &__categories
       grid-row: 2 / 3
       grid-column: span 3
     &__legal
       grid-column: span 4
-      margin-left: 19px
+      margin-left: 15px
     &__additional
       grid-column: span 5
-      margin-left: 40px
+      margin-left: 0
     &__contact
       &-details
         grid-column: span 12
@@ -118,6 +118,37 @@
       width: 100%
     &__dialog
       padding: 30px 45px
+@media (max-width: 991px)
+  .navbar
+    &-menu
+      &__link:hover
+        color: $light
+    .user
+      &__name:hover
+        color: $text-color
+  .booking
+    &__num:hover
+      color: $light
+  .footer
+    &__link:hover
+      color: $footer-text-color
+    &__phone:hover
+      color: $footer-text-color
+    &-bottom
+      &__link:hover
+        color: $light
+  .button:hover
+      opacity: 1
+  .search
+    &__button:hover
+      opacity: 1
+  .subscribe
+    &__button:hover
+      opacity: 1
+  .card
+    &__button:hover
+      opacity: 1
+
 @media (max-width: 768px)
   .container
     width: 92%
@@ -190,6 +221,10 @@
       &-network
         grid-row: 1 / 2
         margin-left: 7px
+    &__additional
+      margin-left: 15px
+    &__legal
+      margin-left: 0
     &__contact
       &-details
         margin-top: 29px
@@ -504,8 +539,17 @@
         margin-left: 0
     &__additional
       margin-left: 0
+      grid-row: 4
+    &__categories
+      grid-row: 5
     &__legal
       margin-left: 0
+      grid-row: 3
+    &__contact
+      &-details
+        margin-top: 0
+      &-form
+        margin-top: 0
     &__title
       margin-bottom: 20px
       &--inline
@@ -530,6 +574,16 @@
         height: 22px
       &__image
         width: 100%
+    &__icon
+      max-width: 21px
+      max-height: 21px
+      object-fit: cover
+      margin-left: 0
+      &-wrapper
+        width: 21px
+        height: 21px
+        &--mr-1
+          margin-right: 12px
   .modal
     &__dialog
       width: 90%
