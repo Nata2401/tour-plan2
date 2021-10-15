@@ -1430,6 +1430,20 @@ template {
   color: #E0E0E0;
 }
 
+.footer__button-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
 .footer-bottom__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2339,6 +2353,12 @@ template {
     line-height: 23px;
     margin-bottom: 38px;
   }
+  .footer {
+    padding-bottom: 21px;
+  }
+  .footer-wrapper {
+    margin-bottom: 30px;
+  }
   .footer__logo {
     width: 98px;
     height: 112px;
@@ -2390,6 +2410,24 @@ template {
   .footer__input-group {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
+  }
+  .footer__message {
+    margin-bottom: 15px;
+  }
+  .footer__button-group {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .footer__info {
+    margin-bottom: 15px;
+  }
+  .footer-bottom {
+    margin-top: 0;
   }
   .footer-bottom__wrapper {
     -ms-flex-wrap: wrap;
