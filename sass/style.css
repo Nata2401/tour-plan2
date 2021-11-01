@@ -568,6 +568,10 @@ template {
   color: inherit;
 }
 
+.breadcrumb-list__link:hover {
+  color: #EC1F46;
+}
+
 .hotel {
   margin-top: 18px;
   margin-bottom: 70px;
@@ -1795,6 +1799,9 @@ template {
   }
   .navbar .user__name:hover {
     color: #333333;
+  }
+  .breadcrumb-list__link:hover {
+    color: inherit;
   }
   .booking__num:hover {
     color: #ffffff;
