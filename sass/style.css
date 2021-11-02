@@ -51,14 +51,6 @@ img {
   cursor: pointer;
 }
 
-.button:hover {
-  opacity: 0.5;
-}
-
-a:hover .button__modal:not(:hover) {
-  color: #EC1F46;
-}
-
 .invalid {
   color: #EC1F46;
 }
@@ -466,10 +458,6 @@ template {
   display: none;
 }
 
-.navbar-menu__item:hover {
-  color: #EC1F46;
-}
-
 .logo {
   width: 177px;
 }
@@ -507,10 +495,6 @@ template {
   cursor: pointer;
 }
 
-.search__button:hover {
-  opacity: 0.5;
-}
-
 .user {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -534,10 +518,6 @@ template {
   font-size: 14px;
   line-height: 18px;
   color: #333333;
-}
-
-.user__name:hover {
-  color: #EC1F46;
 }
 
 .breadcrumb-list {
@@ -565,10 +545,6 @@ template {
 .breadcrumb-list__link {
   text-decoration: none;
   color: inherit;
-}
-
-.breadcrumb-list__link:hover {
-  color: #EC1F46;
 }
 
 .hotel {
@@ -851,10 +827,6 @@ template {
   line-height: 25px;
 }
 
-.booking__number:hover {
-  color: #EC1F46;
-}
-
 .booking__num {
   margin-left: 8px;
 }
@@ -985,10 +957,6 @@ template {
   cursor: pointer;
   border-radius: 0 4px 4px 0;
   overflow: hidden;
-}
-
-.subscribe__button:hover {
-  opacity: 0.5;
 }
 
 .reviews {
@@ -1222,10 +1190,6 @@ template {
   cursor: pointer;
 }
 
-.card__button:hover {
-  opacity: 0.5;
-}
-
 .footer {
   background-color: #0A223D;
   color: #ffffff;
@@ -1389,10 +1353,6 @@ template {
   color: inherit;
 }
 
-.footer__link:hover {
-  color: #EC1F46;
-}
-
 .footer__input {
   width: 100%;
 }
@@ -1488,10 +1448,6 @@ template {
   color: inherit;
 }
 
-.footer-bottom__link:hover {
-  color: #EC1F46;
-}
-
 .footer-bottom__icon {
   width: 136px;
   height: 22px;
@@ -1504,10 +1460,6 @@ template {
 .footer__phone {
   text-decoration: none;
   color: inherit;
-}
-
-.footer__phone:hover {
-  color: #EC1F46;
   cursor: pointer;
 }
 
@@ -1792,39 +1744,39 @@ template {
   }
 }
 
-@media (max-width: 991px) {
+@media (min-width: 992px) {
   .navbar-menu__link:hover {
-    color: #ffffff;
+    color: #EC1F46;
   }
-  .navbar .user__name--light:hover {
-    color: #ffffff;
+  .user__name:hover {
+    color: #EC1F46;
   }
   .breadcrumb-list__link:hover {
-    color: inherit;
+    color: #EC1F46;
   }
   .booking__num:hover {
-    color: #ffffff;
+    color: #EC1F46;
   }
   .footer__link:hover {
-    color: #bdbdbd;
+    color: #EC1F46;
   }
   .footer__phone:hover {
-    color: #bdbdbd;
+    color: #EC1F46;
   }
   .footer-bottom__link:hover {
-    color: #ffffff;
+    color: #EC1F46;
   }
   .button:hover {
-    opacity: 1;
+    opacity: 0.7;
   }
   .search__button:hover {
-    opacity: 1;
+    opacity: 0.7;
   }
   .subscribe__button:hover {
-    opacity: 1;
+    opacity: 0.7;
   }
   .card__button:hover {
-    opacity: 1;
+    opacity: 0.7;
   }
 }
 

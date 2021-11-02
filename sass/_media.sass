@@ -118,41 +118,40 @@
       width: 100%
     &__dialog
       padding: 30px 45px
-@media (max-width: 991px)
+@media (min-width: 992px)
   .navbar
     &-menu
       &__link:hover
-        color: $light
-    .user
-      &__name
-        &--light:hover
-          color: $light
+        color: $primary
+  .user
+    &__name:hover
+      color: $primary
   .breadcrumb
     &-list
       &__link:hover
-        color: inherit
+        color: $primary
   .booking
     &__num:hover
-      color: $light
+      color: $primary
   .footer
     &__link:hover
-      color: $footer-text-color
+      color: $primary
     &__phone:hover
-      color: $footer-text-color
+      color: $primary
     &-bottom
       &__link:hover
-        color: $light
+        color: $primary
   .button:hover
-    opacity: 1
+    opacity: 0.7
   .search
     &__button:hover
-      opacity: 1
+      opacity: 0.7
   .subscribe
     &__button:hover
-      opacity: 1
+      opacity: 0.7
   .card
     &__button:hover
-      opacity: 1
+      opacity: 0.7
 @media (max-width: 768px)
   .container
     width: 92%
