@@ -61,7 +61,6 @@ a:hover .button__modal:not(:hover) {
 
 .invalid {
   color: #EC1F46;
-  border-bottom: 1px solid #EC1F46;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -1797,8 +1796,8 @@ template {
   .navbar-menu__link:hover {
     color: #ffffff;
   }
-  .navbar .user__name:hover {
-    color: #333333;
+  .navbar .user__name--light:hover {
+    color: #ffffff;
   }
   .breadcrumb-list__link:hover {
     color: inherit;
@@ -2234,8 +2233,9 @@ template {
     line-height: 15px;
   }
   .navbar__search--mobile_visible {
-    width: 76%;
+    width: 58%;
     margin-bottom: 13px;
+    margin-left: 90px;
   }
   .search__input {
     width: 340px;
@@ -2400,6 +2400,9 @@ template {
   }
   .footer__contact-form {
     margin-top: 0;
+  }
+  .footer__text {
+    line-height: 22px;
   }
   .footer__title {
     margin-bottom: 20px;

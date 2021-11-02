@@ -124,8 +124,9 @@
       &__link:hover
         color: $light
     .user
-      &__name:hover
-        color: $text-color
+      &__name
+        &--light:hover
+          color: $light
   .breadcrumb
     &-list
       &__link:hover
@@ -142,7 +143,7 @@
       &__link:hover
         color: $light
   .button:hover
-      opacity: 1
+    opacity: 1
   .search
     &__button:hover
       opacity: 1
@@ -152,7 +153,6 @@
   .card
     &__button:hover
       opacity: 1
-
 @media (max-width: 768px)
   .container
     width: 92%
@@ -438,8 +438,9 @@
     &__search
       &--mobile
         &_visible
-          width: 76%
+          width: 58%
           margin-bottom: 13px
+          margin-left: 90px
   .search
     &__input
       width: 340px
@@ -558,6 +559,8 @@
         margin-top: 0
       &-form
         margin-top: 0
+    &__text
+      line-height: 22px
     &__title
       margin-bottom: 20px
       &--inline
