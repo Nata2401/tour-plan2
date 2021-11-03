@@ -72,6 +72,7 @@ closeModalButton.on("click", closeModal);
       },
       phone: {
         required: "We need your phone to contact you",
+        minlength: "The number is not complete",
      },
     },
    });
@@ -80,8 +81,8 @@ closeModalButton.on("click", closeModal);
 });
 
 $(document).ready(function() {
-    $("#phone").mask("+7 (999) 99-99-999");
-    $("#phone-2").mask("+7 (999) 99-99-999");
+    $("#phone").mask("+7 (999) 999-99-99");
+    $("#phone-2").mask("+7 (999) 999-99-99");
 });
 
 $(window).width(function(){

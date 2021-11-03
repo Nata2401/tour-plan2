@@ -310,7 +310,7 @@
           <button data-toggle="modal" class="card__button">Book Now</button>
         </div>
         <!-- /.card -->
-        <div class="card activities__card" data-aos="fade-right" data-aos-delay="300">
+        <div class="card activities__card activities__card--order-1" data-aos="fade-right" data-aos-delay="300">
           <img src="img/activity-2.jpg" alt="Gymkhana club golf course" class="card__image">
           <h3 class="card__title">Gymkhana club golf <br> course</h3>
           <button data-toggle="modal" class="card__button">Book Now</button>
@@ -322,7 +322,7 @@
           <button data-toggle="modal" class="card__button">Book Now</button>
         </div>
         <!-- /.card -->
-        <div class="card activities__card" data-aos="fade-right" data-aos-delay="700">
+        <div class="card activities__card activities__card--order-2" data-aos="fade-right" data-aos-delay="700">
           <img src="img/activity-4.jpg" alt="The blue marine discovery quest" class="card__image">
           <h3 class="card__title">The blue marine discovery <br> quest</h3>
           <button data-toggle="modal" class="card__button">Book Now</button>
@@ -427,7 +427,7 @@
                 <input type="text" class="input footer__input" placeholder="Your Full Name*" name="name" minlength="2" required />
               </div>
               <div class="footer__input-group">
-                <input type="tel" id="phone" class="input footer__input" placeholder="Phone Number*" name="phone" required />
+                <input type="tel" id="phone" class="input footer__input" placeholder="Phone Number*" name="phone" required minlength="18" />
               </div>
               <textarea class="message footer__message" cols="30" rows="10" placeholder="Message"
               name="message"
@@ -469,7 +469,7 @@
       <h3 class="modal__title modal__title--mb-3">Booking</h3>
       <form action="send.php" method="POST" class="modal__form form">
         <input type="text" class="input modal__input" placeholder="Your Full Name*" name="name" required minlength="2" />
-        <input type="tel" id="phone-2" class="input modal__input" placeholder="Phone Number*" name="phone" required minlength="2"/>
+        <input type="tel" id="phone-2" class="input modal__input" placeholder="Phone Number*" name="phone" required minlength="18"/>
         <input type="email" class="input modal__input" placeholder="Email*" name="email" required  />
         <textarea class="message modal__message" cols="30" rows="10" placeholder="Message" name="message"></textarea>
         <button class="button modal__button">Send</button>
@@ -480,7 +480,7 @@
   </div>
   <!-- /.modal -->
   <script src="js/jquery-3.6.0.min.js"></script>
-  <script src="js/jquery-3.3.1.maskedinput.min.js"></script>
+  <script src="js/jquery.mask.min.js"></script>
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/jquery.validate.min.js"></script>
   <script src="js/aos.js"></script>
