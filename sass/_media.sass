@@ -168,12 +168,14 @@
         line-height: 15px
   .navbar
     &__search
-      width: 340px
+      width: 335px
       margin-left: 47px
     &-menu
       justify-content: space-around
       &__link
         font-size: 12px
+  .logo
+    width: 135px
   .hotel
     margin-bottom: 60px
   .newsletter
@@ -219,7 +221,7 @@
       padding: 0
     &__input
       &-group
-        flex-basis: 49%
+        flex-basis: 48%
     &__social
       &-network
         grid-row: 1 / 2
@@ -234,8 +236,14 @@
     &__title
       &--mb-3
         margin-bottom: 25px
+      &--mb-4
+        margin-bottom: 35px
     &__form
       width: 77%
+  .modal
+    &__dialog
+      margin-top: 20px
+      margin-bottom: 20px
 @media (max-width: 765px)
   body
     padding-top: 78px
@@ -452,7 +460,7 @@
       padding: 15px 0
   .hotel
     padding-top: 0
-    margin-bottom: 40px
+    margin-bottom: 45px
     margin-top: 0
     &-slider
       height: 180px
@@ -484,15 +492,17 @@
       height: 320px
       flex-direction: column
       align-items: flex-start
+      width: 280px
     &-title
       padding-top: 0
       padding-bottom: 37px
       margin: 0
+      width: 75%
       &__strong
         font-size: 30px
         line-height: 38px
     &__subscribe
-      width: 100%
+      width: 280px
     &__title
       font-size: 20px
       line-height: 25px
@@ -538,6 +548,7 @@
         order: 1
   .footer
     padding-bottom: 21px
+    padding-top: 60px
     &-wrapper
       margin-bottom: 30px
     &__logo
@@ -566,7 +577,11 @@
     &__text
       line-height: 22px
     &__title
-      margin-bottom: 20px
+      margin-bottom: 15px
+      &--mb-3
+        margin-bottom: 30px
+      &--mb-4
+        margin-bottom: 20px
       &--inline
         margin-bottom: 20px
     &__contact
